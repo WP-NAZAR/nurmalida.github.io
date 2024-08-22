@@ -1,0 +1,85 @@
+.hero{
+    width: 100%;
+    height: 90vh;
+}
+.hero_Content{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+.hero_containerLeft{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_heroContent{
+    width: 600px;
+    height: auto;
+}
+.container_heroTitle{
+    width: auto;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.hero_title{
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: normal;
+    color: blue;
+    letter-spacing: 10px;
+}
+.hero_Profesi{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 550px;
+}
+.container_heroDesc{
+    margin-bottom: 20px;
+}
+.container_heroDesc p {
+    text-align: justify;
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+.BtnHero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.imgHero{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgba(128, 128, 128, 0.669);
+}
+
+.hero_containerRight {
+    width: 310px; 
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgba(0, 26, 255, 0.88);
+}
+.iconDownload{
+    width: 30px;
+}

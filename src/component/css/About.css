@@ -1,0 +1,58 @@
+.about{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+.container_abtLeft{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+.container_abtRight {
+    width: 40%;
+    height: 400px;
+    padding: 40px;
+}
+.about_brand{
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+.container_abtRight h4 {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 15px;
+}
+.container_abtRight p {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.containerDesc_About p {
+    text-align: justify;
+}
+.cotainer_btnAbout{
+    margin-top: 50px;
+}
+.btnAbout{
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 10px;
+}
+.btnAbout:hover{
+    cursor: pointer;
+}
+.imageAbout{
+    width: 400px;
+    height: 400px;
+}
