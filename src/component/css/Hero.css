@@ -66,6 +66,8 @@
     border-radius: 10px;
     gap: 10px;
 }
+.btnHero:hover {
+    cursor: pointer;
 .imgHero{
     width: 300px;
     height: 300px;
